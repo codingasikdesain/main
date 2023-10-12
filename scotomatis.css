@@ -7,7 +7,22 @@
       padding: 0;
       margin: 0;
     }
-   
+.coloading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 0;
+      padding-top: 40% !important;
+      width: 100%;
+    }
+
+    #fake {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
  .loader {
       animation: rotate 1s infinite;
       height: 50px;
@@ -98,27 +113,7 @@
     .modal .modal-body {
       overflow-y: auto;
     }
-    .coloading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      left: 0;
-      padding-top: 60% !important;
-      width: 100%;
-    }
 
-    #fake {
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .coloading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
     button {
       outline: none !important;
     }

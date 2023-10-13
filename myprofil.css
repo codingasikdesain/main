@@ -1,0 +1,147 @@
+.header-codingasik{
+ background:var(--my-color);
+ padding: 10px;
+ height: 130px;
+ box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.top{
+ margin-top: 10px;
+}
+.name{
+ width: 100%;
+}
+.name h5{
+ font-size: 16px;
+ font-weight: 600;
+ color: white;
+ margin-bottom: 3px;
+ margin-top: 5px;
+ margin-left: 10px;
+}
+.name p{
+ font-size: 12px;
+ color: #f1f1f1;
+ margin-left: 10px;
+}
+.foto-profil img{
+ width: 50px;
+ background: white;
+ border-radius: 100px;
+ margin-top: 0px;
+ margin-right: 10px;
+}
+.box-salpo{
+ display: flex;
+ background: white;
+ padding: 13px;
+ border-radius: 10px;
+ padding-bottom: 0px !important;
+ box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ position: relative;
+ margin-top: -35px;
+}
+.saldo{
+ width: 100%;
+}
+.poin{
+ width: 100%;
+}
+.icon-sal img{
+ width: 40px;
+ margin-right: 10px;
+}
+.text-sal h5{
+ font-size: 14px;
+ margin-bottom: 0px;
+ margin-top: 4px;
+}
+.text-sal p{
+ font-size: 11px;
+ color: gray;
+}
+.icon-poi img{
+ width: 40px;
+ margin-right: 10px;
+}
+.text-poi h5{
+ font-size: 14px;
+ margin-bottom: 0px;
+ margin-top: 4px;
+}
+.text-poi p{
+ font-size: 11px;
+ color: gray;
+ margin-bottom: 0px;
+}
+.menu{
+ display: flex;
+ background: white;
+ box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+ margin-top: 10px;
+ padding: 15px;
+ padding-bottom: 10px !important;
+ border-radius: 10px;
+ width: 100%;
+}
+.icon-menu i{
+ margin-right: 10px;
+ font-size: 20px;
+ color: var(--my-color);
+}
+.text-menu h5{
+ font-size: 13px;
+ color: black;
+ margin-bottom: 0px;
+ margin-top: 2px;
+ opacity: .7;
+}
+.text-menu{
+ width: 100%;
+}
+.tag{
+ font-size: 14px;
+ margin-top: 10px;
+ margin-bottom: 0px;
+ font-weight: bold;
+ color: gray;
+}
+a{
+ text-decoration: none;
+}
+.close{
+  background:var(--my-color);
+  margin-top: 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+}
+.offcanvas{
+  border-radius: 30px 30px 0px 0px;
+  height: auto !important;
+}
+.batal{
+  width: 100%;
+  border: none;
+  background: red;
+  color: white;
+  font-size: 13px;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.lanjut{
+  width: 100%;
+  border: none;
+  background:var(--my-color);
+  color: white;
+  font-size: 13px;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

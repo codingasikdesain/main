@@ -1,0 +1,225 @@
+body{
+ user-select:none;
+ -moz-user-select:none;
+ -ms-user-select:none;
+ -khtml-user-select:none;
+ -webkit-user-select:none;
+}
+.codingasik-flex{
+    display:flex;
+}
+
+.Codingasik-grid2 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid3 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid4 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid5 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid6 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid7 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid8 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid9 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(9, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+.Codingasik-grid10 {
+   list-style: none;
+   margin: 0;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   justify-items: center;
+   position: relative;
+   top: 0px;
+}
+
+.shadow-1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadow-2{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.shadow-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shadow-4{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.shadow-5{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shadow-6{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.shadow-7{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.shadow-8{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.shadow-9{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.shadow-10{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.br-5{
+    border-radius:5px;
+}
+.br-10{
+    border-radius:10px;
+}
+.br-15{
+    border-radius:15px;
+}
+.br-20{
+    border-radius:20px;
+}
+.br-25{
+    border-radius:25px;
+}
+.br-30{
+    border-radius:30px;
+}
+.br-30{
+    border-radius:35px;
+}
+.br-30{
+    border-radius:40px;
+}
+.br-50{
+    border-radius:50px;
+}
+.br-100{
+    border-radius:100px;
+}
+    .home-text p span.text-out {
+      animation: textOut .5s ease;
+    }
+
+    @keyframes textIn {
+      0% {
+        transform: translateY(100%);
+      }
+
+      100% {
+        transform: translateY(0%);
+      }
+    }
+
+    @keyframes textOut {
+      0% {
+        transform: translateY(0%);
+      }
+
+      100% {
+        transform: translateY(-100%);
+
+      }
+    }
+
+    .scroll-menu {
+      clear: both;
+      white-space: nowrap;
+      overflow-x: auto;
+      padding: 15px 0;
+      border-radius: 10px
+    }
+
+    .scroll-menu::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scroll-menu {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    #naving {
+      top: -300px;
+      transition: top 0.5s;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      text-align: center;
+    }
+        .grow {
+      animation: grow 2s ease infinite;
+    }
+
+    @keyframes grow {
+      from {
+        transform: scale(0);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }

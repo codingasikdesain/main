@@ -203,3 +203,45 @@
       bottom: -12px;
       font-weight: bold !important;
     }
+.protect h5{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.protect div{
+    width: 100%;
+}
+.my-wallet{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.my-wallet img{
+    width: 40px;
+    margin-right: 10px;
+}
+.my-wallet p{
+    font-size: 12px;
+    margin: 0px;
+}
+.my-wallet h5{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.t-det,.t-ket p{
+    margin-bottom: 6px;
+}
+.linex{
+    border-top: 1px solid #f1f1f1;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.protect{
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+}

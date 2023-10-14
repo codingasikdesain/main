@@ -146,6 +146,7 @@ input:focus {
 #id,input {
   border: 2px solid #f1f1f1;
   border-radius: 10px !important;
+  padding-top:2px;
 }
 #id:focus,input:focus {
   border: 2px solid var(--my-color);

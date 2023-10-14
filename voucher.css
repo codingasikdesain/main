@@ -1,0 +1,276 @@
+p {
+  margin: 5px 0 5px 0;
+}
+
+/* setelan tombol beli */
+.btn-primary {
+  background-color: var(--my-color);
+  border-color: var(--my-color);
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color:var(--my-color);
+  border-color: var(--my-color);
+  box-shadow: none;
+  font-size: 14px;
+}
+
+/* navigation background */
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active {
+  background-color:var(--my-color);
+  color: white;
+  font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-link {
+  color: grey;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  background-color:var(--my-color);
+  color: white;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+.modal-header {
+  background-color:var(--my-color);
+  color: white;
+}
+.labeling {
+  font-size: 11px;
+  color: var(--my-color);
+  margin-left: 12px;
+  bottom: -12px;
+}
+
+.codingasik-bg {
+  background: white;
+  border-radius: 13px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 10px;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 100;
+}
+
+.codingasik-produk,.codingasik-produk:focus,.codingasik-produk:hover {
+  background: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.img-produk {
+  width: 45px;
+  padding: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 10px !important;
+  border-radius: 10px;
+}
+
+.bg-pelanggan input {
+  background: white !important;
+  border: 1.5px solid #f1f1f1;
+}
+
+.btn-cancel {
+  background: #f00000 !important;
+}
+
+.btn-beli {
+  background:var(--my-color);
+  box-shadow: 0px 0px 0px 0px !important;
+  width: 60%;
+}
+
+.text-start p {
+  font-size: 13px !important;
+  color: gray !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+.text-end p {
+  font-size: 13px !important;
+  color: black !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+.codingasik-hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-color: #f1f1f1;
+}
+
+.mini-icon {
+  width: 20px;
+  margin-top: 4px;
+}
+
+.caption-stat {
+  font-size: 10px;
+  margin: 0px;
+}
+.image-game img {
+  width: 40px;
+  border-radius: 100px;
+  margin-right: 0px;
+  background: white;
+  padding: 2px;
+}
+
+.text-game {
+  width: 100%;
+}
+.text-game h5 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#id,input {
+  border: 2px solid #f1f1f1;
+  border-radius: 10px !important;
+}
+#id:focus,input:focus {
+  border: 2px solid var(--my-color);
+}
+
+.codingasik-produk {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* CSS untuk tombol switch */
+.mode-switch {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mode-switch .icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.mode-label {
+  font-size: 18px;
+  color: #888;
+}
+
+.card,
+.card-body {
+  border: none;
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px !important;
+  top: 10px;
+}
+
+.info-btn {
+  width: 100%;
+  text-align: right;
+}
+
+.informasi {
+  border: none;
+  background: var(--my-color);
+  color: white;
+  font-size: 11px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: 500;
+}
+.nama-item {
+  font-size: 14px;
+  font-weight: 550;
+  color: black;
+  margin: 0px;
+}
+
+.harga-item {
+  font-size: 13.5px;
+  font-weight: 550;
+  color: black !important;
+  opacity: 0.7;
+  margin: 0px;
+}
+.harga-pop{
+    margin-right: 10px;
+}
+.harga-pop p{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    margin: 0px;
+}
+
+.harga-pop h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+}
+.my-wallet{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.my-wallet img{
+    width: 40px;
+    margin-right: 10px;
+}
+.my-wallet p{
+    font-size: 12px;
+    color: gray;
+    margin: 0px;
+}
+.my-wallet h5{
+    margin: 0px;
+    font-size: 14px;
+    color: var(--my-color);
+    font-weight: bold;
+}
+.t-det,.t-ket p{
+    margin-bottom: 6px;
+}
+.linex{
+    border-top: 1px solid #f1f1f1;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.protect{
+    justify-content: center;
+    text-align: center;
+    background: var(--my-color);
+    border-radius: 5px;
+    padding: 7px;
+}
+.protect h5{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.protect div{
+    width: 100%;
+}

@@ -29,6 +29,7 @@
         #id:focus,
         input:focus {
             border: 2px solid #2196F3 !important;
+        box-shadow:0px 0px 0px 0px !;
         }
 
         .input-group-text {

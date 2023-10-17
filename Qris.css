@@ -137,7 +137,7 @@
         color: gray;
       }
       .val{
-        color: #00897B !important;
+        color: #2196f3 !important;
       }
       #alertz{
         position: fixed;
@@ -147,7 +147,7 @@
         padding: 20px;
       }
       .header-codingasik{
-        background: #00897B !important;
+        background: #2196f3 !important;
         position: absolute;
         top: 0;
         left: 0;

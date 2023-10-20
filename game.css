@@ -99,9 +99,12 @@
         .codingasik-produk:focus,
         .codingasik-produk:hover {
             background: white;
-            border-radius: 10px;
-            border: none;
+            border-left: none;
+                border-top:none;
+                border-bottom:none;
             outline: none;
+            border-radius: 15px !important;
+            border-right: 5px solid var(--my-color);
         }
 
         .img-produk {

@@ -94,18 +94,6 @@
             color: var(--white-color);
         }
 
-
-        .codingasik-produk,
-        .codingasik-produk:focus,
-        .codingasik-produk:hover {
-            background: white;
-        border:none !important;
-            outline: none;
-            border-radius: 15px !important;
-                        padding: 10px;
-            margin-bottom: 10px;
-        }
-
         .img-produk {
             width: 45px;
             padding: 0px !important;

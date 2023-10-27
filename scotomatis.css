@@ -170,8 +170,27 @@
     align-items: center;
     margin-bottom: 10px;
     padding-bottom: 14px;
-    border-bottom: 1px solid #f1f1f1;
 }
+    .card-body {
+      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png');
+      background-size: cover;
+      background-position: center;
+      margin-top: 0px !important;
+    }
+      .codingasik-produk {
+      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png');
+      background-size: cover;
+      background-position: center;
+    }
+    .my-wallet {
+      border-bottom: 3px dotted #e0e0e0;
+    }
+
+    .linexx {
+      border-top: 3px dotted #e0e0e0 !important;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
 .my-wallet img{
     width: 40px;
     margin-right: 10px;
@@ -188,11 +207,7 @@
 .t-det,.t-ket p{
     margin-bottom: 6px;
 }
-.linex{
-    border-top: 1px solid #f1f1f1;
-    margin-top: 10px;
-    padding-top: 15px;
-}
+
 .protect{
     justify-content: center;
     text-align: center;

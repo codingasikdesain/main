@@ -172,14 +172,14 @@
     padding-bottom: 14px;
 }
     .card-body {
-      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png');
+      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png') !important;
       background-size: cover;
       background-position: center;
       margin-top: 0px !important;
       padding-top:7px;
     }
       .codingasik-produk {
-      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png');
+     background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png') !important;
       background-size: cover;
       background-position: center;
     }

@@ -300,3 +300,14 @@
             width: 80px;
             margin-top: -20px;
         }
+    .card-body {
+      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png') !important;
+      background-size: cover;
+      background-position: center;
+      margin-top: 0px !important;
+    }
+      .codingasik-produk,.codingasik-produk:focus,.codingasik-produk:hover {
+      background-image: url('https://qiosscriptcode.files.wordpress.com/2023/10/flyerdesign_24102023_064822.png');
+      background-size: cover;
+      background-position: center;
+    }
